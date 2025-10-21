@@ -49,3 +49,18 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+let userOrg = "Dietary Services";
+let userPerson;
+
+if (userOrg === "Employee") {
+    userPerson = "Dietary Services";
+} else if (userOrg === "Enrolled Member"){
+    userPerson = "Dietary Services and one-on-one interaction with a dietician";
+} else if (userOrg === "Subscriber") {
+    userPerson = "Dietary Services Only";
+} else {
+    userPerson = "You need to enroll for perks!";
+}
+
+console.log ("Dietary Services:", userPerson);
