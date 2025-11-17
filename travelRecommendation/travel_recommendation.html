@@ -13,19 +13,33 @@
                 <!--Navigation-->
             <nav><h1>Travel Recs</h1>
                 <ul>
-                    <li><a href="./travel_recommedation.html" id="home">Home </a></li>
-                        <li><a href="./travelRec_about_us.html" id="about_us">About US </a></li>
-                        <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+                    <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+                        <li><a href="./travel_recommendation.html" id="about_us">About US </a></li>
+                        <li><a href="./travel_recommendation.html" id="contact">Contact Us </a></li>
                         <li><input type="text" id="recommendationInput" placeholder="Search for recommendations"></li>
                         <li><button id='btnSearch'>Search</button></li>
-                            <li><button id='btnReset'>Reset</button></li>
+                            <li><button id='clearBtn'>Clear</button></li>
                             </ul>
+                            <div id="results"></div>
                         </nav>
-                        <!--Links to About Us & Contact Page-->
+                        <!--Links to Home, About Us & Contact Page-->
                         <div class="topdiv">
+                            <a class="topmenu" href="#home">Home</a>
                             <a class="topmenu" href="#about-me">About Me</a>
                             <a class="topmenu" href="#contact">Contact</a>
                         </div>
+                        <!--Social Media Logos and Links-->
+                        <div class="social-media-icons">
+                            <a href="https://www.facebook.com" target="_blank">
+                            <img src="images/facebook-logo.png" alt="Facebook" width="16" height="16">
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="images/twitter-logo.png" alt="Twitter" width="16" height="16"
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="images/instagram-logo.png" alt="Instagram" width="16" height="16"
+                        </a>
+                    </div>
                         <!--Home Section-->
                         <div id="home">
                             <div class="info">
@@ -81,6 +95,7 @@
                                                     alert('Thank you for contacting us!')
                                                 }
                                                 </script>
+                                                <script src="./travel_recommedation.js"></script>
                                                 </section>
                         </body>
                         </html>
