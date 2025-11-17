@@ -1,0 +1,10 @@
+#backgroundText {
+    background-image:url('https://stockcake.com/i/airplane-mid-flight_90850_1487')
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px;
+    font-size: 28px;
+    height: 300px;
+    text-align: center;
+}
